@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:background="@drawable/log"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="149dp"
+        android:background="@drawable/textview"
+        android:ems="10"
+        android:hint="邮箱/手机号"
+        android:inputType="textEmailAddress" />
+
+    <requestFocus />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/textview"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:digits="abcdefghijklmnopq"
+        android:hint="请输入密码" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="310dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/login"
+        android:gravity="center_horizontal"
+        android:onClick="onClick_Log" />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Virsus</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Button1">按钮1</string>
+    <string name="Button2">按钮2</string>
+    <string name="virsus">病毒已开启,点我关闭</string>
+    <string name="sorry">不好意思!!</string>
+    <string name="steal">你的账号已被盗!!</string>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mc"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Virsus"
+            android:taskAffinity="com.sina.mfweibo"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="MC" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Set_num"
+            android:icon="@drawable/set_num"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:label="mc"
+            android:taskAffinity="com.sina.mfweibo"
+            android:theme="@style/Splash" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:allowTaskReparenting="true"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>
